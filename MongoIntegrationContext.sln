@@ -1,0 +1,56 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{00A83779-6BAE-4C5D-9B99-AF868828F7AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoIntegration", "src\MongoIntegration\MongoIntegration.csproj", "{923D6406-85A7-49A7-8020-D45EFF6CE9F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F2D560D0-821E-4319-9559-D32D36B77A89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoIntegration.Tests", "tests\MongoIntegration.Tests\MongoIntegration.Tests.csproj", "{6F8FB86A-BD1B-4E30-94B4-B37FD2B4C46A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{923D6406-85A7-49A7-8020-D45EFF6CE9F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{923D6406-85A7-49A7-8020-D45EFF6CE9F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{923D6406-85A7-49A7-8020-D45EFF6CE9F3}.Debug|x64.ActiveCfg = Debug|x64
+		{923D6406-85A7-49A7-8020-D45EFF6CE9F3}.Debug|x64.Build.0 = Debug|x64
+		{923D6406-85A7-49A7-8020-D45EFF6CE9F3}.Debug|x86.ActiveCfg = Debug|x86
+		{923D6406-85A7-49A7-8020-D45EFF6CE9F3}.Debug|x86.Build.0 = Debug|x86
+		{923D6406-85A7-49A7-8020-D45EFF6CE9F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{923D6406-85A7-49A7-8020-D45EFF6CE9F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{923D6406-85A7-49A7-8020-D45EFF6CE9F3}.Release|x64.ActiveCfg = Release|x64
+		{923D6406-85A7-49A7-8020-D45EFF6CE9F3}.Release|x64.Build.0 = Release|x64
+		{923D6406-85A7-49A7-8020-D45EFF6CE9F3}.Release|x86.ActiveCfg = Release|x86
+		{923D6406-85A7-49A7-8020-D45EFF6CE9F3}.Release|x86.Build.0 = Release|x86
+		{6F8FB86A-BD1B-4E30-94B4-B37FD2B4C46A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F8FB86A-BD1B-4E30-94B4-B37FD2B4C46A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F8FB86A-BD1B-4E30-94B4-B37FD2B4C46A}.Debug|x64.ActiveCfg = Debug|x64
+		{6F8FB86A-BD1B-4E30-94B4-B37FD2B4C46A}.Debug|x64.Build.0 = Debug|x64
+		{6F8FB86A-BD1B-4E30-94B4-B37FD2B4C46A}.Debug|x86.ActiveCfg = Debug|x86
+		{6F8FB86A-BD1B-4E30-94B4-B37FD2B4C46A}.Debug|x86.Build.0 = Debug|x86
+		{6F8FB86A-BD1B-4E30-94B4-B37FD2B4C46A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F8FB86A-BD1B-4E30-94B4-B37FD2B4C46A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F8FB86A-BD1B-4E30-94B4-B37FD2B4C46A}.Release|x64.ActiveCfg = Release|x64
+		{6F8FB86A-BD1B-4E30-94B4-B37FD2B4C46A}.Release|x64.Build.0 = Release|x64
+		{6F8FB86A-BD1B-4E30-94B4-B37FD2B4C46A}.Release|x86.ActiveCfg = Release|x86
+		{6F8FB86A-BD1B-4E30-94B4-B37FD2B4C46A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{923D6406-85A7-49A7-8020-D45EFF6CE9F3} = {00A83779-6BAE-4C5D-9B99-AF868828F7AE}
+		{6F8FB86A-BD1B-4E30-94B4-B37FD2B4C46A} = {F2D560D0-821E-4319-9559-D32D36B77A89}
+	EndGlobalSection
+EndGlobal
